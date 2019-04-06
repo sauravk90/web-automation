@@ -1,5 +1,5 @@
 import time
-from PDFCompare import PDFReader
+#from PDFCompare import PDFReader
 from Constants import *
 
 class Helper:
@@ -40,6 +40,6 @@ class Helper:
         :param trail_stop_loss_max_daily_loss_file:
         :return: True or False
         '''
-        p = PDFReader()
-        return p.verify_report(DOWNLOAD_PATH + file, cons_pos_size_file, max_perm_lev_file,
-                               max_perm_short_pos_file, trail_stop_loss_max_daily_loss_file)
+       # p = PDFReader()
+        #return p.verify_report(DOWNLOAD_PATH + file, cons_pos_size_file, max_perm_lev_file,
+                               #max_perm_short_pos_file, trail_stop_loss_max_daily_loss_file)
